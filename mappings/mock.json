@@ -1,0 +1,56 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPattern": "/core/cep/12231520"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"cep\":12231520,\"logradouro\":\"logradouro 1\",\"bairro\":\"bairro 1\",\"uf\":\"uf 1\",\"estado\":\"estado 1\"}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPattern": "/core/cep/12231521"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"cep\":12231521,\"logradouro\":\"logradouro 2\",\"bairro\":\"bairro 2\",\"uf\":\"uf 2\",\"estado\":\"estado 2\"}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPattern": "/core/cep/12231522"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"cep\":12231522,\"logradouro\":\"logradouro 3\",\"bairro\":\"bairro 3\",\"uf\":\"uf 3\",\"estado\":\"estado 3\"}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/core/cep"
+      },
+      "response": {
+        "status": 200,
+        "body": "[{\"cep\":12231520,\"logradouro\":\"logradouro 1\",\"bairro\":\"bairro 1\",\"uf\":\"uf 1\",\"estado\":\"estado 1\"}, {\"cep\":12231521,\"logradouro\":\"logradouro 2\",\"bairro\":\"bairro 2\",\"uf\":\"uf 2\",\"estado\":\"estado 2\"}, {\"cep\":12231522,\"logradouro\":\"logradouro 3\",\"bairro\":\"bairro 3\",\"uf\":\"uf 3\",\"estado\":\"estado 3\"}]",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}
