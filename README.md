@@ -59,7 +59,7 @@ Esta é uma aplicação RESTful que permite consultar e obter informações deta
 ### Instruções
 
 1. Clone o repositório:
- -  git clone https://github.com/luizavramos
+ -  git clone https://github.com/luizavramos/BuscaCep
 
 2. Navegue até o diretório do projeto:
  -  cd cep-api
